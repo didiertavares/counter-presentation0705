@@ -13,18 +13,19 @@ body{
 section{
     border: 5px solid white;
     background: cornflowerblue;
-    padding: 50px;
-    width: 400px;
+    padding: 20px;
+    width: 300px;
     place-items: center;
     border-radius: 20px;
     text-shadow: 3px 3px 4px black;
 }
 h1{
     color: white;
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: bold;
 }
 p{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
 }
 button{
