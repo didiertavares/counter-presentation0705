@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: darkblue;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid white;
+    display: grid;
+    place-items: center;
+}
+section{
+    border: 5px solid white;
+    background: cornflowerblue;
+    padding: 50px;
+    width: 400px;
+    place-items: center;
+    border-radius: 20px;
+    text-shadow: 3px 3px 4px black;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+p{
+    font-size: 90px;
+    font-weight: bold;
+}
+button{
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: lightskyblue;
+    box-shadow: 2px 2px 3px black;
+}
+button:hover{
+    background: blue;
+    scale: 1.2;
+}
